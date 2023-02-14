@@ -1,0 +1,5 @@
+frase = input('Digite uma frase:').strip()
+frase = frase.lower()
+print(f"A letra \033[1;31m'a'\033[m aparece {frase.count('a')} vezes na frase.")
+print(f"A primeira letra \033[1;31m'a'\033[m aparece na posição {frase.find('a')+1}")
+print(f"A última letra \033[1;31m'a'\033[m aparece na posição {frase.rfind('a')+1}")
